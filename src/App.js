@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 function App() {
   const [hexCode, setHexCode] = useState('#ff0000');
-  const [colorName, setColorName] = useState('red');
+  const [colorName, setColorName] = useState('Red');
   return (
     <div>
       <h1>Random Color Generator</h1>
